@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                scipt {
+                script {
                     def test = 2 +2 > 3? 'cool':'not cool'
                     echo test
                 }
