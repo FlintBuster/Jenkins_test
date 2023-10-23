@@ -7,7 +7,7 @@ pipeline {
                 echo 'Building..'
                 scipts {
                     def test = 2 +2 > 3? 'cool':'not cool'
-                    exho test
+                    echo test
                 }
             }
         }
